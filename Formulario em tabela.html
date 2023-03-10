@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario em tabela</title>
+</head>
+<body>
+
+<h1>formulario em tabela</h1>
+<form action="/Principal.html" method="get">
+<table border="3">
+<tr>
+    <th colspan="3">Dados Pessoais</th>
+</tr>
+
+<tr>
+    <th>Nome:</th>
+    <td><input type="text" id="Nome" name="Nome" required></td>
+</tr>
+    
+<tr>
+    <th>Data de Nascimento:</th>
+    <td><input type="date" id="Data de Nascimento" name="Data de Nascimento" required ></td>
+</tr>
+
+<tr>
+    <th>Endereço:</th>
+    <td><input type="" id="Endereço" name="Endereço" required></td>
+</tr>
+
+<tr>
+    <th>Bairro:</th>
+    <td><input type="text" id="Bairro" name="Bairro"></td>
+</tr>
+
+<tr>
+    <th>Cidade:</th>
+    <td><input type="text" id="Cidade" name="Cidade"></td>
+</tr>
+
+<tr>
+        <th>CEP:</th>
+    <td><input type="number" id="CEP" name="CEP"></td>
+</tr>
+
+<tr>
+    <th>Estado:</th>
+    <td>
+        <select id="Estado" name="Estado" required>
+        <option selected disabled value="">Selecione</option>
+        <option value="Ceará">Ceará</option>
+        <option value="Maranhão">Maranhão</option>
+        <option value="Piauí">Piauí</option>
+        <option value="Pernambuco">Pernambuco</option>
+        <option value="Bahia">Bahia</option>
+        <option value="Sergipe">Sergipe</option>
+        <option value="Paraíba">Paraíba</option>
+        <option value="Alagoas">Alagoas</option>
+        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+        </select>
+    </td>
+</tr>
+
+</table>
+    
+<br>
+
+<table border="3">
+<tr>
+    <th colspan="3" rowspan="1">Dados Profissionais</th>
+</tr>
+<tr>
+    <th colspan="3">Natureza do Cargo:</th>
+</tr>
+
+<tr>
+    <th>gerência</th>
+    <td><input type="radio" id="gerência" name="Cargo" value="gerência"></td>
+</tr>
+    <th>Financeiro</th>
+    <td><input type="radio" id="Financeiro" name="Cargo" value="Financeiro"></td>
+<tr>
+    <th>Recepção</th>
+    <td><input type="radio" id="Recepção" name="Cargo" value="Recepção"></td>
+</tr>
+    <th>Administrativo</th>
+    <td><input type="radio" id="Administrativo" name="Cargo" value="Administrativo"></td>
+<tr>
+    <th>Jurídico</th>
+    <td><input type="radio" id="Jurídico" name="Cargo" value="Jurídico"></td>
+</tr>
+
+<br>
+
+<tr>
+    <th rowspan="1" colspan="3">Área de Interesse:</th>
+</tr>
+
+<tr>
+    <th>Computação</th>
+    <td><input type="checkbox" id="Computação" name="Cargo" value="Computação"></td>
+</tr>
+
+<tr>
+    <th>Química</th>
+    <td><input type="checkbox" id="Química" name="Cargo" value="Química"></td>
+</tr>
+
+<tr>
+    <th>Meio Ambiente</th>
+    <td><input type="checkbox" id="Meio Ambiente" name="Cargo" value="Meio Ambiente"></td>
+</tr>
+
+<tr>
+    <th>Matematica</th>
+    <td><input type="checkbox" id="Matematica" name="Cargo" value="Matematica"></td>
+</tr>
+
+<tr>
+    <th>Engenharia</th>
+    <td><input type="checkbox" id="Engenharia" name="Cargo" value="Engenharia"></td>
+</tr>
+
+<tr>
+    <Th>Mini-Curriculo</Th>
+    <td><textarea id="Mini-Curriculo" name="Mini-Curriculo" rows="4" cols="35"></textarea></td>
+</tr>
+
+<tr>
+    <td>
+    <input type="submit" value="Enviar">
+    </td>
+
+    <td>
+    <input type="reset" value="Limpar"> 
+    </td>
+</tr>
+
+
+</form>
+</table>
+</body>
+</html>
