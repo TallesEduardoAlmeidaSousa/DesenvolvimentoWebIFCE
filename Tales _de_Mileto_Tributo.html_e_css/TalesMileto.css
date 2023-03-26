@@ -1,0 +1,45 @@
+body{
+    background-color:beige;
+}
+
+th{
+    background-color: rgba(148, 148, 148, 0.356);
+}
+
+table{
+    background-color:rgb(250, 244, 244) ;
+}
+
+h2{
+    margin: 0%;
+}
+
+#texto{
+    width:70%; 
+    float: left;
+}
+
+#tabela{
+    float: right; 
+    width: 28%;
+}
+
+p{
+    font-size: 20px;
+}
+
+a:link{
+    color: rgb(10, 36, 36);
+}
+
+a:visited{
+    color: rgb(34, 0, 0);
+}
+
+a:hover{
+    color:  rgb(117, 117, 2);
+}
+
+a:active{
+    color: rgb(32, 53, 0);
+}

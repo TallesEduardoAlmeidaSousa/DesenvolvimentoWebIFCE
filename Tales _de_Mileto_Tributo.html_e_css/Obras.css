@@ -1,0 +1,61 @@
+body{
+    background-color: beige;
+}
+
+h2{
+    margin: 0%;
+}
+
+#texto1{
+    font-size: 20px;
+}
+
+#texto2{
+    font-size: 20px;
+    width: 65%;
+    float: left;
+    
+}
+
+#img1{
+  float:  top right; 
+  padding: 1%;
+}
+
+#texto3{
+    font-size: 20px;
+}
+
+#texto4{
+    font-size: 20px;
+}
+
+#texto5{
+    font-size: 20px;
+}
+
+#texto6{
+    font-size: 20px;
+}
+
+ul{
+    font-size: 17px;
+    padding: 0.1;
+    font-weight: bold;
+}
+
+a:link{
+    color: rgb(10, 36, 36);
+}
+
+a:visited{
+    color: rgb(34, 0, 0);
+}
+
+a:hover{
+    color:  rgb(117, 117, 2);
+}
+
+a:active{
+    color: rgb(32, 53, 0);
+}

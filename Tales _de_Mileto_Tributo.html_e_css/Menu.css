@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image:url(cosmo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-transform:initial;
+    background-size: 1600px;
+}
+
+h2{
+    background-color: rgb(1, 0, 75);
+    color:red;
+    text-align: center;
+    
+}
+
+#menu{
+    list-style-type: none;
+    background-color: rgb(1, 0, 75);
+}
+
+#menu li{
+    display: inline;
+    padding: 150px;
+}
+
+#menu li a{
+    padding: 55px;
+    display: inline-block;
+    text-decoration: none;
+   
+  
+}
+
+a:link{
+    color: aqua;
+    font-size:16px;
+}
+
+a:visited{
+    color:rgb(216, 4, 4);
+}
+
+a:hover{
+    color:  yellow;
+}
+
+a:active{
+    color: greenyellow;
+}
