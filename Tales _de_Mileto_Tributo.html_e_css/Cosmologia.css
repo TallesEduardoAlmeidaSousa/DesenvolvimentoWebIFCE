@@ -1,0 +1,26 @@
+@media (max-width:1600px) and (min-width:250px){
+body{
+    background-color:beige;
+}
+
+p.Cosmologia{
+    font-size: 20px;
+
+}
+
+a:link{
+    color: rgb(10, 36, 36);
+}
+
+a:visited{
+    color: rgb(34, 0, 0);
+}
+
+a:hover{
+    color:  rgb(117, 117, 2);
+}
+
+a:active{
+    color: rgb(32, 53, 0);
+}
+}

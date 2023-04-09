@@ -1,0 +1,193 @@
+
+@media (max-width:1600px) and (min-width:950px){
+body{
+    background-color:beige;
+}
+
+th{
+    background-color: rgba(148, 148, 148, 0.356);
+}
+
+table{
+    background-color:rgb(250, 244, 244) ;
+}
+
+h2{
+    margin: 0%;
+}
+
+#texto{
+    width:70%; 
+    float: left;
+}
+
+#tabela{
+    float: right; 
+    width: 28%;
+}
+
+p{
+    font-size: 20px;
+}
+
+a:link{
+    color: rgb(10, 36, 36);
+}
+
+a:visited{
+    color: rgb(34, 0, 0);
+}
+
+a:hover{
+    color:  rgb(117, 117, 2);
+}
+
+a:active{
+    color: rgb(32, 53, 0);
+}
+
+}
+
+@media (max-width:950px) and (min-width:700px){
+    body{
+        background-color:beige;
+    }
+    
+    th{
+        background-color: rgba(148, 148, 148, 0.356);
+    }
+    
+    table{
+        background-color:rgb(250, 244, 244) ;
+    }
+    
+    h2{
+        margin: 0%;
+    }
+    
+    #texto{
+        width:70%; 
+        float: left;
+    }
+    
+    #tabela{
+        float: right; 
+        width: 28%;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+    a:link{
+        color: rgb(10, 36, 36);
+    }
+    
+    a:visited{
+        color: rgb(34, 0, 0);
+    }
+    
+    a:hover{
+        color:  rgb(117, 117, 2);
+    }
+    
+    a:active{
+        color: rgb(32, 53, 0);
+    }
+}
+
+@media (max-width:700px) and (min-width:600px){
+    body{
+        background-color:beige;
+    }
+    
+    th{
+        background-color: rgba(148, 148, 148, 0.356);
+    }
+    
+    table{
+        background-color:rgb(250, 244, 244) ;
+    }
+    
+    h2{
+        margin: 0%;
+    }
+    
+    #texto{
+        width:70%; 
+        float: left;
+    }
+    
+    #tabela{
+        float: right; 
+        width: 29%;
+    }
+    
+    p{
+        font-size: 19px;
+    }
+    
+    a:link{
+        color: rgb(10, 36, 36);
+    }
+    
+    a:visited{
+        color: rgb(34, 0, 0);
+    }
+    
+    a:hover{
+        color:  rgb(117, 117, 2);
+    }
+    
+    a:active{
+        color: rgb(32, 53, 0);
+    }
+}
+
+@media (max-width:600px) and (min-width:250px){
+    body{
+        background-color:beige;
+    }
+    
+    th{
+        background-color: rgba(148, 148, 148, 0.356);
+    }
+    
+    table{
+        background-color:rgb(250, 244, 244) ;
+    }
+    
+    h2{
+        margin: 0%;
+    }
+    
+    #texto{
+        width:70%; 
+        float: left;
+    }
+    
+    #tabela{
+        float: right; 
+        width: 29%;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+    a:link{
+        color: rgb(10, 36, 36);
+    }
+    
+    a:visited{
+        color: rgb(34, 0, 0);
+    }
+    
+    a:hover{
+        color:  rgb(117, 117, 2);
+    }
+    
+    a:active{
+        color: rgb(32, 53, 0);
+    }
+}
