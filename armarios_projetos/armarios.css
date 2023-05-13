@@ -1,0 +1,1501 @@
+
+@media (max-width:1900px) and (min-width:1530px){
+
+body{
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+div.Armarios{
+    background-color:rgba(0, 159, 199, 0.801);
+    height: 500px;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px ;
+    border-style:groove;
+    border-color: black;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+fieldset{
+    border-radius: 20px;
+    border-style: groove;
+    text-align: center;
+    margin-bottom: 40px;
+
+
+}
+
+.numero{
+    background-color: rgb(160, 160, 160);
+    width: 30%;
+    border-radius: 10px;
+    border-color: rgb(56, 56, 56);
+    border-style:solid;
+    position: relative;
+    left: 33.5%;
+}
+
+.traço{
+    width:80%;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    left: 13px;
+    margin: 10px;
+}
+
+.traço2{
+    width:80%;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    bottom: -1px;
+    left: 13px;
+    margin: 10px;
+}
+
+.bnt1{
+    background-color: rgb(221, 0, 0);
+    width: 226px;
+    position: relative;
+    right: 1px;
+    border-radius: 10px;
+    font: bold;
+    font: 16px;
+
+}
+
+.B001{
+    font-size:21px;
+    font: bolder;
+    margin: 0;
+    padding: 0;
+
+}
+
+.C001{
+    background-color: rgb(142, 210, 255);
+    position: relative;
+    bottom: -50px;
+    left: 24px;
+    width: 30px;
+    height: 120px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color:rgb(214, 214, 214);
+   
+    
+}
+
+.D001{
+    background-color:rgba(0, 143, 179, 0.801);
+    border-radius: 5px;
+    position: relative;
+    height: 43px;
+    
+}
+
+.E001{
+    background-color:rgba(0, 143, 179, 0.801);
+    border-radius: 5px;
+    position: relative;
+    height: 43px;
+    bottom: -300px;
+
+}
+
+.F001{
+    background-color: rgb(214, 214, 214);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border-style: groove;
+    border-color:rgb(192, 192, 192);
+    position: relative;
+    top:-140px;
+    left:18px ;
+}
+
+.G001{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-style:dotted;
+    position: relative;
+    bottom: -4px;
+    left: 4px;
+}
+
+.H001{
+    background-color: rgb(79, 185, 255) ;
+    border-radius: 5px;
+    height: 120px;
+    width: 15px;
+    position: relative;
+    bottom: -28px;
+    left: 7px;
+    border-width: 0px;
+}
+
+
+.bnt2{
+    background-color: rgb(0, 255, 64);
+    width: 226px;
+    position: relative;
+    right: 1px;
+    border-radius: 10px;
+    font: bold;
+    font: 16px;
+}
+
+
+.B002{
+    font-size:21px;
+    font: bolder;
+    margin: 0;
+    padding: 0;
+
+}
+
+.C002{
+    background-color: rgb(142, 210, 255);
+    position: relative;
+    bottom: -50px;
+    left: 24px;
+    width: 30px;
+    height: 120px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color:rgb(214, 214, 214);
+    
+}
+
+.D002{
+    background-color:rgba(0, 143, 179, 0.801);
+    border-radius: 5px;
+    position: relative;
+    height: 43px;
+}
+
+.E002{
+    background-color:rgba(0, 143, 179, 0.801);
+    border-radius: 5px;
+    position: relative;
+    height: 43px;
+    bottom: -300px;
+
+}
+
+.F002{
+    background-color: rgb(214, 214, 214);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border-style: groove;
+    border-color:rgb(192, 192, 192);
+    position: relative;
+    top:-140px;
+    left:18px ;
+}
+
+.G002{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-style:dotted;
+    position: relative;
+    bottom: -4px;
+    left: 4px;
+}
+
+.H002{
+    background-color: rgb(79, 185, 255) ;
+    border-radius: 5px;
+    height: 120px;
+    width: 15px;
+    position: relative;
+    bottom: -28px;
+    left: 7px;
+    border-width: 0px;
+}
+
+.bnt3{
+    background-color: rgb(228, 228, 0);
+    width: 226px;
+    position: relative;
+    right: 1px;
+    border-radius: 10px;
+    font: bold;
+    font: 16px;
+}
+
+.B003{
+    font-size:21px;
+    font: bolder;
+    margin: 0;
+    padding: 0;
+
+}
+
+.C003{
+    background-color: rgb(142, 210, 255);
+    position: relative;
+    bottom: -50px;
+    left: 24px;
+    width: 30px;
+    height: 120px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color:rgb(214, 214, 214);
+    
+}
+
+.D003{
+    background-color:rgba(0, 143, 179, 0.801);
+    border-radius: 5px;
+    position: relative;
+    height: 43px;
+}
+
+.E003{
+    background-color:rgba(0, 143, 179, 0.801);
+    border-radius: 5px;
+    position: relative;
+    height: 43px;
+    bottom: -300px;
+
+}
+
+.F003{
+    background-color: rgb(214, 214, 214);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border-style: groove;
+    border-color:rgb(192, 192, 192);
+    position: relative;
+    top:-140px;
+    left:18px ;
+}
+
+.G003{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-style:dotted;
+    position: relative;
+    bottom: -4px;
+    left: 4px;
+}
+
+.H003{
+    background-color: rgb(79, 185, 255) ;
+    border-radius: 5px;
+    height: 120px;
+    width: 15px;
+    position: relative;
+    bottom: -28px;
+    left: 7px;
+    border-width: 0px;
+}
+
+}
+
+@media (max-width:1529px) and (min-width:1400px){
+
+    body{
+        background-color: bisque;
+        box-sizing: border-box;
+    }
+    
+    div.Armarios{
+        background-color:rgba(0, 159, 199, 0.801);
+        height: 400px;
+        width: 15%;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 20px ;
+        border-style:groove;
+        border-color: black;
+        margin: 3px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    
+    fieldset{
+        border-radius: 20px;
+        border-style: groove;
+        text-align: center;
+        margin-bottom: 40px;
+    
+    
+    }
+    
+    .numero{
+        background-color: rgb(160, 160, 160);
+        width: 30%;
+        border-radius: 10px;
+        border-color: rgb(56, 56, 56);
+        border-style:solid;
+        position: relative;
+        left: 33.5%;
+    }
+
+    .traço{
+        width:80%;
+        height: 5px;
+        background-color: black;
+        position: relative;
+        left: 5px;
+        margin: 10px;
+    }
+
+    .traço2{
+        width:80%;
+        height: 5px;
+        background-color: black;
+        position: relative;
+        left: 5px;
+        margin: 10px;
+    }
+    
+    .bnt1{
+        background-color: rgb(221, 0, 0);
+        width: 206px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+
+    .B001{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C001{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+       
+        
+    }
+    
+    .D001{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        
+    }
+    
+    .E001{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F001{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G001{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H001{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+    
+    .bnt2{
+        background-color: rgb(0, 255, 64);
+        width: 206px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+    
+    .B002{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C002{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+        
+    }
+    
+    .D002{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+    }
+    
+    .E002{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F002{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G002{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H002{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+    
+    .bnt3{
+        background-color: rgb(228, 228, 0);
+        width: 206px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+
+    .B003{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C003{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+        
+    }
+    
+    .D003{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+    }
+    
+    .E003{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F003{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G003{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H003{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+}
+
+@media (max-width:1399px) and (min-width:1299px){
+
+    body{
+        background-color: bisque;
+        box-sizing: border-box;
+    }
+    
+    div.Armarios{
+        background-color:rgba(0, 159, 199, 0.801);
+        height: 400px;
+        width: 15%;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 20px ;
+        border-style:groove;
+        border-color: black;
+        margin: 3px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    
+    fieldset{
+        border-radius: 20px;
+        border-style: groove;
+        text-align: center;
+        margin-bottom: 40px;
+    
+    
+    }
+    
+    .numero{
+        background-color: rgb(160, 160, 160);
+        width: 30%;
+        border-radius: 10px;
+        border-color: rgb(56, 56, 56);
+        border-style:solid;
+        position: relative;
+        left: 33.5%;
+    }
+
+    .traço{
+        width:80%;
+        height: 5px;
+        background-color: black;
+        position: relative;
+        left: 5px;
+        margin: 10px;
+    }
+
+    .traço2{
+        width:80%;
+        height: 5px;
+        background-color: black;
+        position: relative;
+        left: 5px;
+        margin: 10px;
+    }
+    
+    .bnt1{
+        background-color: rgb(221, 0, 0);
+        width: 190px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+
+    .B001{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C001{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+       
+        
+    }
+    
+    .D001{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        
+    }
+    
+    .E001{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F001{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G001{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H001{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+    
+    .bnt2{
+        background-color: rgb(0, 255, 64);
+        width: 190px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+    
+    .B002{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C002{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+        
+    }
+    
+    .D002{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+    }
+    
+    .E002{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F002{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G002{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H002{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+    
+    .bnt3{
+        background-color: rgb(228, 228, 0);
+        width: 190px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+
+    .B003{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C003{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+        
+    }
+    
+    .D003{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+    }
+    
+    .E003{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F003{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G003{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H003{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+}
+@media (max-width:1298px) and (min-width:1000px){
+
+        body{
+            background-color: bisque;
+            box-sizing: border-box;
+        }
+        
+        div.Armarios{
+            background-color:rgba(0, 159, 199, 0.801);
+            height: 400px;
+            width: 15%;
+            display: inline-block;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 20px ;
+            border-style:groove;
+            border-color: black;
+            margin: 3px;
+            margin-left: 20px;
+            margin-right: 20px;
+        
+        }
+        
+        fieldset{
+            border-radius: 20px;
+            border-style: groove;
+            text-align: center;
+            margin-bottom: 40px;
+        
+        
+        }
+        
+        .numero{
+            background-color: rgb(160, 160, 160);
+            width: 30%;
+            border-radius: 10px;
+            border-color: rgb(56, 56, 56);
+            border-style:solid;
+            position: relative;
+            left: 33.5%;
+        }
+    
+        .traço{
+            width:80%;
+            height: 5px;
+            background-color: black;
+            position: relative;
+            left: 5px;
+            margin: 10px;
+        }
+    
+        .traço2{
+            width:80%;
+            height: 5px;
+            background-color: black;
+            position: relative;
+            left: 5px;
+            margin: 10px;
+        }
+        
+        .bnt1{
+            background-color: rgb(221, 0, 0);
+            width: 170px;
+            position: relative;
+            right: 1px;
+            border-radius: 10px;
+            font: bold;
+            font: 16px;
+        }
+    
+        .B001{
+            font-size:21px;
+            font: bolder;
+            margin: 0;
+            padding: 0;
+        
+        }
+        
+        .C001{
+            background-color: rgb(142, 210, 255);
+            position: relative;
+            bottom: -40px;
+            left: 24px;
+            width: 30px;
+            height: 120px;
+            border-radius: 10px;
+            border-style:groove;
+            border-color:rgb(214, 214, 214);
+           
+            
+        }
+        
+        .D001{
+            background-color:rgba(0, 143, 179, 0.801);
+            border-radius: 5px;
+            
+        }
+        
+        .E001{
+            background-color:rgba(0, 143, 179, 0.801);
+            border-radius: 5px;
+            position: relative;
+            bottom: -230px;
+        
+        }
+        
+        .F001{
+            background-color: rgb(214, 214, 214);
+            width: 45px;
+            height: 45px;
+            border-radius: 50px;
+            border-style: groove;
+            border-color:rgb(192, 192, 192);
+            position: relative;
+            top:-150px;
+            left:18px ;
+        }
+        
+        .G001{
+            background-color: gray;
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            border-style:dotted;
+            position: relative;
+            bottom: -4px;
+            left: 4px;
+        }
+        
+        .H001{
+            background-color: rgb(79, 185, 255) ;
+            border-radius: 5px;
+            height: 120px;
+            width: 15px;
+            position: relative;
+            bottom: -28px;
+            left: 7px;
+            border-width: 0px;
+        }
+        
+        .bnt2{
+            background-color: rgb(0, 255, 64);
+            width: 170px;
+            position: relative;
+            right: 1px;
+            border-radius: 10px;
+            font: bold;
+            font: 16px;
+        }
+        
+        .B002{
+            font-size:21px;
+            font: bolder;
+            margin: 0;
+            padding: 0;
+        
+        }
+        
+        .C002{
+            background-color: rgb(142, 210, 255);
+            position: relative;
+            bottom: -40px;
+            left: 24px;
+            width: 30px;
+            height: 120px;
+            border-radius: 10px;
+            border-style:groove;
+            border-color:rgb(214, 214, 214);
+            
+        }
+        
+        .D002{
+            background-color:rgba(0, 143, 179, 0.801);
+            border-radius: 5px;
+        }
+        
+        .E002{
+            background-color:rgba(0, 143, 179, 0.801);
+            border-radius: 5px;
+            position: relative;
+            bottom: -230px;
+        
+        }
+        
+        .F002{
+            background-color: rgb(214, 214, 214);
+            width: 45px;
+            height: 45px;
+            border-radius: 50px;
+            border-style: groove;
+            border-color:rgb(192, 192, 192);
+            position: relative;
+            top:-150px;
+            left:18px ;
+        }
+        
+.G002{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-style:dotted;
+    position: relative;
+    bottom:-4px;
+    left: 4px;
+}
+        
+.H002{
+    background-color: rgb(79, 185, 255) ;
+    border-radius: 5px;
+    height: 120px;
+    width: 15px;
+    position: relative;
+    bottom: -28px;
+    left: 7px;
+    border-width: 0px;
+}
+        
+.bnt3{
+    background-color: rgb(228, 228, 0);
+    width: 170px;
+    position: relative;
+    right: 1px;
+    border-radius: 10px;
+    font: bold;
+    font: 16px;
+}
+    
+.B003{
+    font-size:21px;
+    font: bolder;
+    margin: 0;
+    padding: 0;
+        
+}
+        
+.C003{
+    background-color: rgb(142, 210, 255);
+    position: relative;
+    bottom: -40px;
+    left: 24px;
+    width: 30px;
+    height: 120px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color:rgb(214, 214, 214);
+            
+}
+        
+.D003{
+    background-color:rgba(0, 143, 179, 0.801);
+    border-radius: 5px;
+}
+        
+.E003{
+    background-color:rgba(0, 143, 179, 0.801);
+    border-radius: 5px;
+    position: relative;
+    bottom: -230px;
+        
+}
+        
+.F003{
+    background-color: rgb(214, 214, 214);
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border-style: groove;
+    border-color:rgb(192, 192, 192);
+    position: relative;
+    top:-150px;
+    left:18px ;
+}
+        
+.G003{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border-style:dotted;
+    position: relative;
+    bottom: -4px;
+    left: 4px;
+}
+        
+.H003{
+    background-color: rgb(79, 185, 255) ;
+    border-radius: 5px;
+    height: 120px;
+    width: 15px;
+    position: relative;
+    bottom: -28px;
+    left: 7px;
+    border-width: 0px;
+    }
+}
+
+@media (max-width:999px) and (min-width:200px){
+
+    body{
+        background-color: bisque;
+        box-sizing: border-box;
+    }
+    
+    div.Armarios{
+        background-color:rgba(0, 159, 199, 0.801);
+        height: 400px;
+        width: 15%;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 20px ;
+        border-style:groove;
+        border-color: black;
+        margin: 3px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    
+    fieldset{
+        border-radius: 20px;
+        border-style: groove;
+        text-align: center;
+        margin-bottom: 40px;
+    
+    
+    }
+    
+    .numero{
+        background-color: rgb(160, 160, 160);
+        width: 30%;
+        border-radius: 10px;
+        border-color: rgb(56, 56, 56);
+        border-style:solid;
+        position: relative;
+        left: 33.5%;
+    }
+
+    .traço{
+        width:80%;
+        height: 5px;
+        background-color: black;
+        position: relative;
+        left: 3px;
+        margin: 10px;
+    }
+
+    .traço2{
+        width:80%;
+        height: 5px;
+        background-color: black;
+        position: relative;
+        left: 3px;
+        margin: 10px;
+    }
+    
+    .bnt1{
+        background-color: rgb(221, 0, 0);
+        width: 150px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+    
+    .B001{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C001{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+       
+        
+    }
+    
+    .D001{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        
+    }
+    
+    .E001{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F001{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G001{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H001{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+    
+    .bnt2{
+        background-color: rgb(0, 255, 64);
+        width: 150px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+
+    }
+    
+    .B002{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C002{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+        
+    }
+    
+    .D002{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+    }
+    
+    .E002{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F002{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G002{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H002{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+    
+    .bnt3{
+        background-color: rgb(228, 228, 0);
+        width: 150px;
+        position: relative;
+        right: 1px;
+        border-radius: 10px;
+        font: bold;
+        font: 16px;
+    }
+    
+    .B003{
+        font-size:21px;
+        font: bolder;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .C003{
+        background-color: rgb(142, 210, 255);
+        position: relative;
+        bottom: -40px;
+        left: 24px;
+        width: 30px;
+        height: 120px;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:rgb(214, 214, 214);
+        
+    }
+    
+    .D003{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+    }
+    
+    .E003{
+        background-color:rgba(0, 143, 179, 0.801);
+        border-radius: 5px;
+        position: relative;
+        bottom: -230px;
+    
+    }
+    
+    .F003{
+        background-color: rgb(214, 214, 214);
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border-style: groove;
+        border-color:rgb(192, 192, 192);
+        position: relative;
+        top:-150px;
+        left:18px ;
+    }
+    
+    .G003{
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        border-style:dotted;
+        position: relative;
+        bottom: -4px;
+        left: 4px;
+    }
+    
+    .H003{
+        background-color: rgb(79, 185, 255) ;
+        border-radius: 5px;
+        height: 120px;
+        width: 15px;
+        position: relative;
+        bottom: -28px;
+        left: 7px;
+        border-width: 0px;
+    }
+
+
