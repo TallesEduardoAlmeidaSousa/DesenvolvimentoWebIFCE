@@ -1,0 +1,201 @@
+{
+  "armarios": [
+    {
+      "id":"armario1",
+      "estados": [
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#001"
+        },
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#001"
+        },
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#001"
+        }
+      ]
+    },
+    {
+      "id": "armario2",
+      "estados": [
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#002"
+        },
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#002"
+        },
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#002"
+        }
+      ]
+    },
+    {
+      "id": "armario3",
+      "estados": [
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#003"
+        },
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#003"
+        },
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#003"
+        }
+      ]
+    },
+    {
+      "id": "armario4",
+      "estados": [
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#004"
+        },
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#004"
+        },
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#004"
+        }
+      ]
+    },
+    {
+      "id":"armario5",
+      "estados": [
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#005"
+        },
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#005"
+        },
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#005"
+        }
+      ]
+    },
+    {
+      "id": "armario6",
+      "estados": [
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#006"
+        },
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#006"
+        },
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#006"
+        }
+      ]
+    },
+    {
+      "id": "armario7",
+      "estados": [
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#007"
+        },
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#007"
+        },
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#007"
+        }
+      ]
+    },
+    {
+      "id":"armario8",
+      "estados": [
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#008"
+        },
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#008"
+        },
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#008"
+        }
+      ]
+    },  
+    {
+      "id": "armario9",
+      "estados": [
+        {
+          "estado": "DESOCUPADO",
+          "cor": "green",
+          "numero": "#009"
+        },
+        {
+          "estado": "OCUPADO",
+          "cor": "red",
+          "numero": "#009"
+        },
+        {
+          "estado": "EM MANUTENÇÃO",
+          "cor": "yellow",
+          "numero": "#009"
+        }
+      ]
+    }
+  ]
+}
+  
+  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+    
+   
