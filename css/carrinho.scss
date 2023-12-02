@@ -1,0 +1,189 @@
+
+body{
+    > main {
+      background: white;
+          
+          .page-title {
+             font-size: 40px;
+             padding: 64px 0;
+             text-align: center; 
+          }
+          .content{
+              display: flex;
+              
+              section{
+                  flex: 1;
+              }
+              aside{
+                  min-width: 250px;
+              }
+          }
+      }
+  }
+  button{
+      cursor: pointer;
+  }
+  table{
+      width: 100%;
+      border-collapse: collapse;
+      
+      thead {
+          tr {
+              border-bottom: 2px solid #eee;
+              th { 
+                  text-align: left;
+                  padding-bottom: 10px;
+                  text-transform: uppercase;
+                  color: #667;
+              }
+          }
+      }
+      tbody{    
+          tr{
+              border-bottom: 2px solid #eee;
+              &:last-child {
+                  border: 0;
+              }
+  
+              td{
+                  padding: 27px 0;
+              }
+          }
+      }
+      .product{
+          display: flex;
+          align-items: center;
+          img{
+              width: 90px;
+              height: 100px;
+              border-radius: 6px;
+          }
+          .info{
+              margin-left: 30px;
+              .name{
+                  font-size: 20px;
+                  margin-bottom: 10px;
+              }
+              .category{
+                  color: #666;
+              }  
+          }
+      }
+      .qty{
+          background: #eeeeeec5;
+          display: inline-flex;
+          min-width: 60px;
+          // padding: 5px 0;
+          height: 30px;
+          justify-content: space-around;
+          align-items: center;
+          border-radius: 20px;
+          overflow: hidden;
+  
+          span{
+              margin: 0 10px;
+          }
+          button{
+              display: flex;
+              align-items: center;
+              border: 0;
+              background: transparent;    
+              padding: 0 10px;
+              font-size: 20px;
+  
+              &:hover{
+                  background: #ddd;
+                  height: 100%;
+              }
+          }
+      }
+      .remove{
+          background: #ffe1e1;
+          border: 0;
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 20px;
+          transition: 1s;
+          &:hover{
+              background: #ddd;
+          }
+      }
+  }
+  aside{
+      margin-left: 30px;
+      
+      .box{
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          background: #eee;
+          color: #222;
+          header {
+              padding: 15px 20px;
+              font-size: 18px;
+              border-bottom: 1px solid #ccc;
+          }
+          
+          .info {
+              padding: 20px;
+              font-size: 16px;
+  
+              > div{
+                  display: flex;
+                  justify-content: space-between;
+                  margin-bottom: 10px;
+                  color: #555;
+  
+                  &:last-child{
+                      margin: 0;
+                  }
+              }
+              button{
+                  color: #28a745;
+                  background: transparent;
+                  border: 0;
+                  display: flex;
+                  align-items: center;
+                  font-size: 16px;
+              }
+              i{
+                  font-size: 18px;
+              }
+          }
+          footer{
+              padding: 15px;
+              background: #ddd;
+          }
+      }
+      > button{
+          color: white;
+          display: block;
+          width: 100%;
+          border: 0;
+          padding: 15px 0;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          background: #28a745;
+          font-size: 16px;
+          transition: 1s;
+          &:hover{
+              background: #3bc55b;
+          }
+      }
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .img-carro img, .home img{
+      width: 25px;
+  }
+  #footer {
+    text-align: center;
+    background-color: rgb(22, 91, 182);
+    color: white;
+    border-top: 5px solid rgba(0, 0, 0, 0.3);
+  }

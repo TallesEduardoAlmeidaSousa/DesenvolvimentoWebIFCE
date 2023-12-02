@@ -1,0 +1,93 @@
+.img-carro img,
+.user img {
+  width: 25px;
+}
+
+.class-produto img {
+  width: 90px;
+  border-radius: 50%;
+}
+.class-produto img:hover {
+  cursor: pointer;
+}
+.class-produto img:focus {
+  border: solid 2px #00b7ff;
+}
+#footer {
+  display: flex;
+  position: relative;
+  background-color: rgb(22, 91, 182);
+  margin-top: 20px;
+  justify-content: center;
+  padding: 2px;
+  color: white;
+  border-top: 5px solid rgba(0, 0, 0, 0.3);
+}
+.class-produto {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  width: 350px;
+}
+
+.flex-prdt-crtn,
+.flex-prdt-whey,
+.flex-prdt-prtn {
+  text-align: center;
+  display: none;
+  justify-content: center;
+}
+
+.cxProdutos {
+  border: solid 1px #cccccc;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+.cxProdutos:hover {
+  background-color: #f0f0f0;
+  transition: 0.5s;
+}
+img.imgprodutoshome {
+  width: 200px;
+  margin: 20px auto;
+  /* border: solid 1px #cccccc; */
+}
+
+.tituloproduto {
+  color: #008040;
+}
+
+a.btnaddcarrinho {
+  background-color: #008040;
+  color: #ffffff;
+  display: block;
+  padding: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.5s;
+  width: 200px;
+}
+
+a.btnaddcarrinho:hover {
+  background-color: #4ce599;
+  transition: 0.5s;
+}
+
+.btn-carrinho {
+  width: 200px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: 20px;
+  visibility: hidden;
+}
+
+.btn-carrinho a {
+  text-decoration: none;
+  color: white;
+}
+

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalho-Web2</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/Style/Home.css">
+    <link rel="stylesheet" href="/Style/carousel.css">
+    <link rel="stylesheet" href="/Style/header.css">
+    <link rel="stylesheet" href="/Style/config.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+          <div id="nomedosite" style="float: left;">
+            <a href="/html/home.html">VitalFit</a>
+    
+          </div>
+          <div  style="text-align: right;">
+            <a class="btlinkheader" onclick="verCarrinho()"
+            href="/html/carrinho.html">
+              <img style="width: 25px;" src="/Imagens/carrinho-de-compras.png" alt=""></a>
+            <a class="btlinkheader" href="/html/user.html">
+              <img style="width: 25px;" src="/Imagens/User.png" alt="Usuario login"></a>
+          </div>
+        </div>
+    </header>
+    <main id="#produtos">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img  src="https://www.otempo.com.br/image/contentid/policy:1.2866513:1683736321/image-Vida-de-Arnold-Schwarzenegger-e-retratada-em-trailer-de-documentario-da-Netflix.jpg?f=3x2&w=1224" width="500" height="600"
+                    class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>"Forjando a Força: Resiliência e Persistência no Fisiculturismo"</h5>
+                      <p>"No fisiculturismo, assim como o ferro é moldado pelo fogo, a construção de um corpo forte e resistente ocorre através da perseverança nos treinos, onde o verdadeiro progresso é alcançado ao sair da zona de conforto."</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://academiaup.fitness/wp-content/uploads/2021/02/turmatoda.jpg" width="500" height="600"
+                    class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>"A Mente Conduz: A Chave para o Sucesso no Fisiculturismo"</h5>
+                      <p>"O corpo alcança o que a mente acredita. Persistência, determinação e foco são os alicerces do verdadeiro sucesso no fisiculturismo."</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://staticg.sportskeeda.com/editor/2022/12/316ae-16709169565450-1920.jpg?w=840" width="500" height="600" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>"Cada Repetição, um Passo Rumo à Superação Física"</h5>
+                      <p>"Cada repetição, cada gota de suor, cada desafio superado é um degrau a mais na escada do progresso. A jornada do fisiculturismo é uma busca constante pela superação pessoal."</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </main>
+        <div class="class-produto">
+            <div class="crtn" onclick="produto1(this)"><img src="/Imagens/creatina.png" alt=""></div>
+            <div class="whey" onclick="produto2(this)"><img src="/Imagens/Whey.png" alt=""></div>
+            <div class="prtn" onclick="produto3(this)"><img src="/Imagens/pre-treino.jpg" alt=""></div>
+        </div>  
+
+        <div class="container">
+          <div class="flex-prdt-crtn">
+              <div class="row justify-content-md-center">
+                  <h2>Creatina</h2>
+                  <div class="col-lg-3">
+                      <div class="cxProdutos">
+                          <img class="imgprodutoshome" src="/Imagens/creatina.jpg" alt="Creatina 1" />
+                          <h3 class="tituloproduto">Creatina Max</h3>
+                          <div class="dtls">
+                              <strong><i>"Melhora a Performance nos Treinos."<br></i></strong>
+                              <strong><i>"Aumento de força."<br></i></strong>
+                              <strong><i>"Ganho de massa muscular."<br></i></strong>
+                              <strong><i>"Revigora as fontes de energias."<br></i></strong>
+                          </div>
+                          <p class="preco">R$90,00</p>
+                          <a class="btnaddcarrinho"  onclick="adicionarAoCarrinho('CREATINA MAX- MONOHIDRATADA - 300G - Max Titanium')">Adicionar ao Carrinho</a>
+                      </div>
+                  </div>
+            
+                  <div class="col-lg-3">               
+                    <div class="cxProdutos">
+                        <img class="imgprodutoshome" src="/Imagens/creatina2.png" alt="Creatina 1" />
+                        <h3 class="tituloproduto">Creatina Monohidratada</h3>
+                        <div class="dtls">
+                          
+                         <strong><i>"Acelera a Recuperação Muscular."<br></i></strong>
+                         <strong><i>"Aumento de Força e Volume Muscular."<br></i></strong>
+                         <strong><i>"Potencializa o Processo de 
+                          <br>Ressíntese de Energia."<br></i></strong>
+                           </div>
+                           <p class="preco">R$70,00</p>
+                            <a class="btnaddcarrinho" onclick="adicionarAoCarrinho('CREATINA - MONOHIDRATADA - 250G - Growth')">Adicionar ao Carrinho</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">               
+                    <div class="cxProdutos">
+                      <img class="imgprodutoshome" src="/Imagens/creatina-Black_skull.jpg" alt="Creatina 1" />
+                      <h3 class="tituloproduto">Creatina Turbo</h3>
+                      <div class="dtls">
+                        <strong><i>"Energia instantânea." <br></i></strong>
+                        <strong><i>"Foco ampliado." <br></i></strong>
+                        <strong><i>"Resistência aumentada." <br></i></strong>
+                        <strong><i>"hipertrofia muscular."<br></i></strong>
+                         </div>
+                         <p class="preco">R$80,00</p>
+                          <a class="btnaddcarrinho" onclick="adicionarAoCarrinho('CREATINA TURBO - MONOHIDRATADA - 300G - Black Skull')">Adicionar ao Carrinho</a>
+                    </div>
+                  </div>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="flex-prdt-whey">
+        <div class="row  justify-content-md-center">
+          <h2>Whey-Protein</h2>
+            <div class="col-lg-3">               
+                <div class="cxProdutos">
+                    <img class="imgprodutoshome" src="/Imagens/Whey-80.png" alt="Creatina 1" />
+                    <h3 class="tituloproduto">WHEY PROTEIN CONCENTRADO (1KG)</h3>
+                    <div class="dtls">
+                    <strong><i>"Age no sistema imunológico." <br></i></strong>
+                    <strong><i>"Fornece energia." <br></i></strong>
+                    <strong><i>"Possui rápida digestibilidade e absorção intestinal." <br></i></strong>
+                    </div>
+                    <p class="preco">R$100,00</p>
+                    <a class="btnaddcarrinho" onclick="adicionarAoCarrinho('WHEY PROTEIN CONCENTRADO (1KG) - Growth')">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+            <div class="col-lg-3">               
+              <div class="cxProdutos">
+                <img class="imgprodutoshome" src="/Imagens/Whey-Black_Skull.png" alt="Whey Protein 2" />
+                <h3 class="tituloproduto">WHEY PROTEIN (900g) Morango</h3>
+                <div class="dtls">
+               <strong><i>"Ajuda Na Hipertrofia." <br></i></strong>
+                <strong><i>"Custo x Benefício." <br></i></strong>
+                <strong><i>"Alta Concentração de Proteína." <br></i></strong>
+                <strong><i>"Ganho de Massa Magra."<br></i></strong>
+                </div>
+                <p class="preco">R$90,00</p>
+                <a class="btnaddcarrinho" onclick="adicionarAoCarrinho('WHEY PROTEIN (900g) Morango - Black Skull')">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+      
+            
+            <div class="col-lg-3">               
+              <div class="cxProdutos">
+                <img class="imgprodutoshome" src="/Imagens/100-whey-refil-chocolate_1.png" alt="Whey Protein 4" />
+                <h3 class="tituloproduto">WHEY PROTEIN (900g) Chocolate</h3>
+                <div class="dtls">
+                  <strong><i>"Matéria-Prima de Alta Qualidade." <br></i></strong> 
+                  <strong><i>"Melhor Custo x Benefício." <br></i></strong> 
+                  <strong><i>"Alta Concentração de Proteína." <br> </i></strong> 
+                </div>
+                <p class="preco">R$90,00</p>
+                <a class="btnaddcarrinho" onclick="adicionarAoCarrinho('WHEY PROTEIN (900g) Chocolate - Max Titanium')">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+         
+            </div>
+      </div>
+      </div>
+    
+    
+      <div class="flex-prdt-prtn">
+          <div class="row  justify-content-md-center">
+            <h2>Pré Treino</h2>
+              <div class="col-lg-3">               
+                  <div class="cxProdutos">
+                    <img class="imgprodutoshome" src="/Imagens/B.O.P.E_Black-skull.jpg" alt="Creatina 1" />
+                    <h3 class="tituloproduto">PRÉ TREINO (300G) B.O.P.E</h3>
+                    <div class="dtls">
+                      <strong><i>"Energia ao Musculo." <br></i></strong> 
+                      <strong><i>"Retarda Cansaço Muscular." <br></i></strong>
+                      <strong><i>"Recuperação dos Musculos."<br></i></strong>               
+                    </div>
+                    <p class="preco">R$70,00</p>
+                    <a class="btnaddcarrinho" onclick="adicionarAoCarrinho('PRÉ TREINO (300G) - B.O.P.E - Black Skull')">Adicionar ao Carrinho</a>
+                  </div>
+              </div>
+              <div class="col-lg-3">               
+                <div class="cxProdutos">
+                    <img class="imgprodutoshome" src="/Imagens/haze-hardcore-pre-workout-growth-v2.png" alt="Creatina 1" />
+                    <h3 class="tituloproduto">PRÉ TREINO (300G) HAZE HARDCORE</h3>
+                    <div class="dtls">
+                     <strong><i> "Muito Mais Eenergia e Disposição Para os Treinos."<br></i></strong>
+                     <strong><i> "Maior Desempenho Físico em Atividades de Alta Intensidade."<br></i></strong>
+                    <strong><i>"Melhora do Desempenho, Seja Para Ganhar Massa Magra ou Emagrecer."<br></i></strong>             
+                    </div>
+                    <p class="preco">R$100,00</p>
+                    <a class="btnaddcarrinho"  onclick="adicionarAoCarrinho('PRÉ TREINO (300G) - HAZE HARDCORE - Growth')">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="col-lg-3">               
+                <div class="cxProdutos">
+                  <img class="imgprodutoshome" src="/Imagens/pre-workout-HORUS.jpg" alt="Creatina 1" />
+                  <h3 class="tituloproduto">PRÉ TREINO (300G) HORUS</h3>
+                  <div class="dtls">
+                    <strong><i>"Melhora na Concentração." <br></i></strong>
+                      <strong><i>"Aumento do Estado Alerta." <br></i></strong>
+                        <strong><i>"Desempenho." <br></i></strong>
+                          <strong><i>"Resistência." <br></i></strong>
+                  </div>
+                  <p class="preco">R$90,00</p>
+                  <a class="btnaddcarrinho"  onclick="adicionarAoCarrinho('PRÉ TREINO (300G) - HORUS - Max Titanium')">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+        
+              <script>
+          function adicionarAoCarrinho(nomeProduto) {
+                  const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+              
+                  // Verifica se o produto já está no carrinho
+                  if (carrinho.includes(nomeProduto)) {
+                    alert(`O produto ${nomeProduto} já foi adicionado ao carrinho!`);
+                  } else {
+                    carrinho.push(nomeProduto);
+                    localStorage.setItem('carrinho', JSON.stringify(carrinho));
+                    alert(`${nomeProduto} adicionado ao carrinho!   
+                    
+                    
+
+                                                         VITAL FIT`);
+                                                        
+                  }
+                  
+                }
+                
+                updateTotals();
+
+
+                location.reload();
+                function verCarrinho() {
+                  window.location.href = '/carrinho.html';
+                }
+
+
+
+              </script>
+              
+</div>
+<footer>
+    <div id="footer">
+        <p>&copy; by João Paulo, Talles, Carlos Eduardo - Todos os Direitos Reservados</p>
+    </div>
+</footer>
+<script src="/Scripts/Script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Cabeçalho, links CSS, etc. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de compras</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/Style/header.css" />
+    <link rel="stylesheet" href="/css/carrinho.css" />
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div id="nomedosite" style="float: left">
+                <a href="/html/home.html">VitalFit</a>
+            </div>
+            <div style="text-align: right">
+                <a class="btlinkheader" href="/html/User.html">
+                    <img style="width: 25px" src="/Imagens/User.png" alt="Usuario login" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+    <div class="page-title">Seu carrinho</div>
+    <div class="content">
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        <th>-</th>
+                    </tr>
+                </thead>
+            <tbody id="tabelaCarrinho">
+                <!-- Aqui serão listados os produtos -->
+            </tbody>
+        </table>
+        <div>
+            <button onclick="limparCarrinho()">Limpar Carrinho</button>
+        </div>
+    </section>
+    <aside>
+        <div class="box">
+            <header>Resumo da compra</header>
+            <div class="info">
+                <div><span>Sub-total</span><span class="subtotal">R$0.00</span></div>
+                <div><span>Frete</span><span>Gratuito</span></div>
+                <div><button><a href="/html/cupom.html">Adicionar cupom de desconto</a><i class="bx bx-right-arrow-alt"></i></button></div>
+                <div>
+                    <span>Total</span>
+                    <span class="total">R$0.00</span>
+                    <input type="text" id="cupomCode" placeholder="Digite o cupom">
+                    <button id="aplicarCupom">Aplicar Cupom</button>
+                </div>
+            </div>
+            <footer>
+                <span>Total com Desconto</span>
+                <span class="totalComDesconto">R$0.00</span>
+            </footer>
+        </div>
+        <button class="finalizarCompra">Finalizar compra</button>
+    </aside>
+        
+</div>
+
+
+<footer>
+    <div id="footer">
+        <p>&copy; by João Paulo, Talles, Carlos Eduardo - Todos os Direitos Reservados</p>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+       const produtos = {
+        "CREATINA MAX- MONOHIDRATADA - 300G - Max Titanium":{
+            preco: 90.00,
+            imagem: "/Imagens/creatina.jpg"
+       
+        },
+
+        "CREATINA - MONOHIDRATADA - 250G - Growth":{
+            preco: 70.00,
+            imagem: "/Imagens/creatina2.png"
+       
+        },
+
+        "CREATINA TURBO - MONOHIDRATADA - 300G - Black Skull":{
+            preco: 80.00,
+            imagem: "/Imagens/creatina-Black_skull.jpg"
+
+        },
+
+        "WHEY PROTEIN CONCENTRADO (1KG) - Growth":{
+            preco: 100.00,
+            imagem: "/Imagens/Whey-80.png"
+
+        },
+
+        "WHEY PROTEIN (900g) Chocolate - Max Titanium":{
+            preco: 90.00,
+            imagem: "/Imagens/100-whey-refil-chocolate_1.png"
+
+        },
+
+        "WHEY PROTEIN (900g) Morango - Black Skull":{
+            preco: 90.00,
+            imagem: "/Imagens/Whey-Black_Skull.png"
+
+        },
+
+        "PRÉ TREINO (300G) - B.O.P.E - Black Skull":{
+            preco: 70.00,
+            imagem: "/Imagens/B.O.P.E_Black-skull.jpg"
+
+        },
+
+        "PRÉ TREINO (300G) - HAZE HARDCORE - Growth":{
+            preco: 100.00,
+            imagem: "/Imagens/haze-hardcore-pre-workout-growth-v2.png"
+
+        },
+
+        "PRÉ TREINO (300G) - HORUS - Max Titanium":{
+            preco: 90.00,
+            imagem: "/Imagens/pre-workout-HORUS.jpg"
+
+        },
+
+
+    };
+
+    function limparCarrinho() {
+        localStorage.removeItem('carrinho');
+        location.reload();
+    }
+
+    const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+    const tabelaCarrinho = document.getElementById('tabelaCarrinho');
+    let totalCompra = 0;
+
+    carrinho.forEach(produto => {
+        const row = document.createElement('tr');
+        const produtoDetalhes = produtos[produto];
+        const preco = produtoDetalhes ? produtoDetalhes.preco : 'N/A';
+        const imagem = produtoDetalhes ? produtoDetalhes.imagem : '';
+
+        row.innerHTML = `
+            <td><img src="${imagem}" alt="${produto}" width="90" height="100"> ${produto} </td>
+            <td>${preco}</td>
+       
+            <td>
+                <div class="qty">
+                    <button class="decreaseQty" onclick="alterarQuantidade(this, 'decrease')"> <i class="bx bx-minus"></i></button>
+                    <span class="itemQuantity">1</span>
+                    <button class="increaseQty" onclick="alterarQuantidade(this, 'increase')"> <i class="bx bx-plus"></i></button>
+                </div>
+            </td>
+            <td class="itemTotal">R$${preco}</td>
+            <td><button class="removeItem" onclick="removerItem('${produto}')"><i class="bx bx-x"></i></button></td>
+        `;
+        tabelaCarrinho.appendChild(row);
+    });
+
+    $(document).ready(function() {
+            var cupomUsado = false; 
+
+            $(".increaseQty").click(function() {
+                var quantityElement = $(this).siblings('.itemQuantity');
+                var quantity = parseInt(quantityElement.text());
+                quantityElement.text(quantity + 1);
+                updateTotals();
+            });
+
+            $(".decreaseQty").click(function() {
+                var quantityElement = $(this).siblings('.itemQuantity');
+                var quantity = parseInt(quantityElement.text());
+                if (quantity > 0) {
+                    quantityElement.text(quantity - 1);
+                    updateTotals();
+                }
+            });
+
+            function updateTotals() {
+                var prices = [];
+                var quantities = $(".itemQuantity");
+                var itemTotals = $(".itemTotal");
+
+                quantities.each(function(index) {
+                    var pricePerItem = parseFloat($(this).closest("tr").find("td:nth-child(2)").text().replace("R$", ""));
+                    var quantity = parseInt($(this).text());
+                    var total = pricePerItem * quantity;
+                    prices.push(total.toFixed(2));
+                    itemTotals.eq(index).text("R$" + total.toFixed(2));
+                });
+
+                var subtotal = prices.reduce((acc, curr) => acc + parseFloat(curr), 0).toFixed(2);
+                $(".subtotal").text("R$" + subtotal);
+
+                var total = (parseFloat(subtotal)).toFixed(2);
+                $(".total").text("R$" + total);
+            }
+
+            $(".removeItem").click(function() {
+                $(this).closest("tr").remove();
+                updateTotals();
+            });
+
+            $(".finalizarCompra").click(function() {
+                let quantitySelected = false;
+                $(".itemQuantity").each(function() {
+                    if (parseInt($(this).text()) > 0) {
+                        quantitySelected = true;
+                    }
+                });
+
+                if (!quantitySelected) {
+                    alert("Selecione o produto e sua quantidade para prosseguir com a compra.");
+                } else {
+                    alert("Compra finalizada. Obrigado por sua compra!");
+                }
+            });
+            function aplicarCupom(cupom) {
+                if (cupomUsado) {
+                    alert("Este cupom já foi utilizado.");
+                    return;
+                }
+
+                var totalBruto = parseFloat($(".subtotal").text().replace("R$", ""));
+                var totalComDesconto = totalBruto;
+
+                switch (cupom) {
+                    case 'KEVIN15':
+                        totalComDesconto *= 0.85; 
+                        break;
+                    case 'ARNOLD10':
+                        totalComDesconto *= 0.90; 
+                        break;
+                    case 'RONNIE20':
+                        totalComDesconto *= 0.80;
+                        break;
+                    default:
+                        break;
+                }
+
+                $(".totalComDesconto").text("R$" + totalComDesconto.toFixed(2));
+                cupomUsado = true;
+            }
+            $("#aplicarCupom").on("click", function() {
+                var cupom = $("#cupomCode").val();
+                aplicarCupom(cupom);
+            });
+
+        });
+    
+    function removerItem(nomeProduto) {
+        const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+        const index = carrinho.indexOf(nomeProduto);
+        if (index > -1) {
+            carrinho.splice(index, 1);
+            localStorage.setItem('carrinho', JSON.stringify(carrinho));
+            location.reload();
+        }
+    }
+</script>
+      
+</body>
+</html>
